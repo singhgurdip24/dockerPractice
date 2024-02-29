@@ -2,15 +2,15 @@
 
 ## Images
 
-- https://hub.docker.com/u/singhgurdip24
+- https://hub.docker.com/u/singhgurdip2408
 - Currency Exchange Service 
-	- singhgurdip24/currency-exchange-service:0.0.1-SNAPSHOT
+	- singhgurdip2408/currency-exchange-service:0.0.1-SNAPSHOT
 - Currency Conversion Service
-	- singhgurdip24/currency-conversion-service:0.0.1-SNAPSHOT
+	- singhgurdip2408/currency-conversion-service:0.0.1-SNAPSHOT
 - Eureka
-	- singhgurdip24/naming-server:0.0.1-SNAPSHOT
+	- singhgurdip2408/naming-server:0.0.1-SNAPSHOT
 - API GATEWAY
-	- singhgurdip24/api-gateway:0.0.1-SNAPSHOT
+	- singhgurdip2408/api-gateway:0.0.1-SNAPSHOT
 
 ## URLS
 
@@ -36,11 +36,11 @@
 #### Commands
 ```
 docker run -p 9411:9411 openzipkin/zipkin:2.23
-docker push docker.io/singhgurdip24/currency-exchange-service:0.0.1-SNAPSHOT
+docker push docker.io/singhgurdip2408/currency-exchange-service:0.0.1-SNAPSHOT
 docker-compose --version
 docker-compose up
-docker push singhgurdip24/naming-server:0.0.1-SNAPSHOT
-docker push singhgurdip24/currency-conversion-service:0.0.1-SNAPSHOT
-docker push singhgurdip24/api-gateway:0.0.1-SNAPSHOT
+docker push singhgurdip2408/naming-server:0.0.1-SNAPSHOT
+docker push singhgurdip2408/currency-conversion-service:0.0.1-SNAPSHOT
+docker push singhgurdip2408/api-gateway:0.0.1-SNAPSHOT
 watch -n 0.1 curl http://localhost:8000/sample-api
 ```
